@@ -1,20 +1,17 @@
 @charset "utf-8";
 body{
 	width: 100%;
-	background:url("images/background.jpg");
+	background:url("images/about.jpg");
 	background-size: cover;
 	color: antiquewhite;
 	font-family:"B Yekan", "B Titr";
 	background-attachment: scroll;
 }
-header{
-	margin: 0px;
-	
-}
+
 
 .logo{
     text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	
 }
 a{
@@ -44,14 +41,18 @@ a{
 	text-decoration: none;
 	color:aliceblue;
 }
+aside{
+	margin:30px 70px -40px 30px;
+	text-align: center;
+}
 
-h1{
-	color: #194350;
-	line-height: 12px;
-	float: right;
-	margin-right: 15px;
-	padding-right:20px;
-	font-size: 50px;
+h2{
+	color:#5C6265;
+	font-family:"B Titr";
+	background: linear-gradient(#acb6e5,#86fde8);
+	border-radius: 15px;
+	width: 200px;
+	height: 60px;
 	
 }
 
@@ -61,26 +62,17 @@ p.text{
     text-justify: inter-word;
     padding: 20px;
     text-align: justify;
-    width: 60%;
-    background-color: #9dbeb9;
-    color: #211F1F;
-    margin-right: 25px;
-    margin-top: 30px;
+    width: 50%;
+    background: linear-gradient(#E0EAFC,#CFDEF3);
+    color:#2D424A;
+    margin-right: 80px;
     border-radius: 20px;
-    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.41) 0.21%,rgba(206,206,206,0.12) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.41) 0.21%,rgba(206,206,206,0.12) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.41) 0.21%,rgba(206,206,206,0.12) 100%);
-    background-image: linear-gradient(180deg,rgba(255,255,255,0.41) 0.21%,rgba(206,206,206,0.12) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.70) 0.41%,rgba(227,227,227,0.40) 98.55%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.70) 0.41%,rgba(227,227,227,0.40) 98.55%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.70) 0.41%,rgba(227,227,227,0.40) 98.55%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.70) 0.41%,rgba(227,227,227,0.40) 98.55%);
 }
 
-p.text a{
-	color:#7E71AB;
-}
-
-p.text a:hover{
-	color:coral;
-	text-decoration: none;
-}
 .navbar a{
 	font-size: 23px;
 	font-weight: bolder;
@@ -97,14 +89,11 @@ p.text a:hover{
     font-family: Verdana,sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(201,207,211,0.52) 99.59%);
-    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(201,207,211,0.52) 99.59%);
-    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(201,207,211,0.52) 99.59%);
-    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(201,207,211,0.52) 99.59%);
+    background-image: url(url);
 }
 
 #footer p{
-	color:dimgray;
+	color:#EBECEC;
 	font-family:"B Koodak";
 	font-weight:normal;
 	font-size: 16px;
