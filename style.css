@@ -1,7 +1,7 @@
 @charset "utf-8";
 body{
 	width: 100%;
-	background:url("images/about.jpg");
+	background:url("images/background.jpg");
 	background-size: cover;
 	color: antiquewhite;
 	font-family:"B Yekan", "B Titr";
@@ -42,20 +42,34 @@ a{
 	color:aliceblue;
 }
 aside{
-	margin:30px 70px -40px 30px;
+	margin:30px 80px -40px 30px;
 	text-align: center;
 }
-
-h2{
+#about h2{
 	color:#5C6265;
 	font-family:"B Titr";
 	background: linear-gradient(#acb6e5,#86fde8);
 	border-radius: 15px;
 	width: 200px;
 	height: 60px;
-	
 }
 
+#index h2{
+	color:#5C6265;
+	font-family:"B Titr";
+	border-radius: 15px;
+	width: 200px;
+	height: 60px;
+}
+#gallery h2{
+	margin-right: 520px;
+	color:#D94878;
+	font-size: 45px;
+	font-family:"B Titr";
+	border-radius: 15px;
+	width: 300px;
+	height: 60px;
+}
 p.text{
     font-size: 18px;
     font-family: "B Koodak";
@@ -93,15 +107,23 @@ p.text{
 }
 
 #footer p{
-	color:#EBECEC;
+	color:#272525;
 	font-family:"B Koodak";
 	font-weight:normal;
 	font-size: 16px;
 	float: right;
 	margin: 40px 600px 0px 100px;
-	padding: 10px 10px 10px 10px;
-	
-	
-	
-	
+	padding: 10px 10px 10px 10px;	
+}
+
+.carousel-item img{
+	width: 600px;
+	height: 300px;
+	margin-top: 50px;
+}
+.carousel-item h5{
+	text-align: center;
+	font-size: 35px;
+	color:#D6FD05;
+
 }
