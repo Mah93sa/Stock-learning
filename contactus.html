@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>learning</title>
+<title>contactus</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
@@ -18,8 +18,8 @@
 	      <li><a href="index.html">صفحه اصلی</a></li>
 			<li><a href="aboutus.html">درباره ما</a></li>
 			<li><a href="gallery.html">گالری تصاویر</a></li>
-			<li><a href="#">مطالب آموزشی</a></li>
-			<li><a href="contactus.html">ارتباط با ما</a></li>
+			<li><a href="learning.html">مطالب آموزشی</a></li>
+			<li><a href="#">ارتباط با ما</a></li>
 	      
         </ul>
   </div>
@@ -31,10 +31,20 @@
 <header class="logo">
 	<img src="images/logo.png" alt="logo" width="200px" height="200px"/>
 	</header >
-		<aside id="learning"><h2>ویدئوهای آموزشی</h2></aside><br><br><br>
-<div class="embed-responsive embed-responsive-16by9">
-	      <iframe  align="middle" class="embed-responsive-item" src="videos/00.mp4"></iframe>
-</div>
+		<aside id="contactus"><h2>ارتباط با ما</h2></aside><br><br><br>
+    <form id="form1" name="form1" method="post">
+		<label for="textfield" class="labelstyle" >نام :</label>
+		<input type="text" name="textfield" id="textfield" class="formstyle" required="required">
+		<br>
+		<label for="textfield" class="labelstyle">ایمیل :</label>
+		<input type="email" name="email" id="email" class="formstyle" required="required">
+		<br>
+		<label for="textfield" class="labelstyle" id="comment">توضیحات :</label>
+		<textarea name="textarea" id="textarea" class="formstyle" required="required"></textarea>
+		<br>
+		<input type="submit" name="submit" id="submit" value="ارسال" class="formstyle" required="required">
+		<br>
+	</form>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <footer>
 		<div id="footer">
